@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #0078D7;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    color: white;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.page {
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0078D7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #005BB5;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* Register Page */
+#register {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#register-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#register-form input:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+#register-form button {
+    width: 100%;
+    background-color: #4a90e2;
+}
+
+#register-form button:hover {
+    background-color: #357ab7;
+}
+
+/* Home Page */
+#home {
+    background-color: #eef6ff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#city, #home button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#city:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+#home button {
+    background-color: #3498db;
+}
+
+#home button:hover {
+    background-color: #2980b9;
+}
+
+/* Weather Details */
+#weather-details {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Login Page */
+#login {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 50px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#login-form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#login-form input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+#login-form button {
+    background-color: #007bff;
+}
+
+#login-form button:hover {
+    background-color: #0056b3;
+}
