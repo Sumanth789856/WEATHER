@@ -37,7 +37,7 @@ document.getElementById('login-form').addEventListener('submit', function (e) {
 // Fetch weather data
 async function getWeather() {
     const city = document.getElementById('city').value;
-    const apiKey = 'b45c5f9a78c6aadae34015991296e47b'; // Replace with your API key
+    const apiKey = 'fc52cefb58671d10036a3ca9ccb09121'; // Replace with your API key
     const url = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=metric`;
 
     try {
